@@ -23,7 +23,6 @@ if __name__=='__main__':
     printo('Direct call')
     args = parse_arg()
     kwargs = vars(args)
-    logger.info(vars(args))
     logger.info('This is an INFO')
     logger.debug('This is a DEBUG')
     logger.warning('This is a WARNING')
